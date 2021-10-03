@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/tv_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_by_viewmodels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By ViewModels()"
+        android:layout_marginVertical="10dp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_activity_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_by_activity_viewmodels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By ActivityViewModels()"
+        android:layout_marginVertical="10dp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_navgraph_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_by_navgraph_viewmodels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By NavGraphViewModels()"
+        android:layout_marginVertical="10dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
